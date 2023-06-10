@@ -5,7 +5,7 @@ import AboutContent from '../views/AboutContent'
 import AboutTestimonials from '../views/AboutTestimonials'
 import AboutContact from '../views/AboutContact'
 import Footer from '../components/Footer'
-import { AboutSection, Container, HR, Heading, MainContainer, Wrapper } from '../styles/AboutPageStyles'
+import { AboutSection, Container, HR, Heading, MainContainer, Wrapper } from '../styles/AboutStyles/AboutPageStyles'
 
 
 const About = () => {
@@ -36,8 +36,5 @@ const About = () => {
 
   )
 }
-
-
-
 
 export default About

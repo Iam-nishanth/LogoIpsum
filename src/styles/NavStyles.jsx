@@ -23,10 +23,10 @@ export const NavContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 80px;
+    min-height: 120px;
     width: 100%;
     padding: 8px 24px;
-    max-width: 95%;
+
 `
 export const Image = styled.img`
     min-height: 70px;
@@ -40,12 +40,13 @@ export const MobileIcon = styled.div`
     display: none;
     transition: .8s all ease;
     cursor: pointer;
+    color: #fff;
 
     @media screen and (max-width: 600px){
         
         display: block;
         position: absolute;
-        top: 18px;
+        top: 35px;
         right: 0;
         transform: translate(-100%,60%);
         font-size: 25px;
@@ -56,8 +57,11 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style:none;
     text-align: center;
-    gap: 20px;
-    @media screen and (max-width: 600px) {
+    gap: 40px;
+    @media (max-width: 800px){
+        gap: 15px;
+    }
+    @media (max-width: 600px) {
         display: none;
     }
 `
@@ -73,7 +77,7 @@ export const NavLink = styled(Link)`
     transition: 0.2s all ease-in-out;
 
     &:hover{
-        color: #3990ac;
+        color: #fbe8a6;
     }
 `
 export const NavSocials = styled.div`
@@ -101,12 +105,14 @@ export const Hamburger = styled(FaBars)`
 
 `
 export const NavButton = styled.button`
-    width: 150px;
+    width: 140px;
     height: 40px;
     background-color: white;
-    border: .5px solid black;
+    border: .5px solid transparent;
     &:hover{
-        background-color: #3990ac;
+        background-color: #fbe8a6;
     }
-    font: inherit;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
 `

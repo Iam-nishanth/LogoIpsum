@@ -13,7 +13,7 @@ export const Container = styled.aside`
     z-index: 10;
     width: 100%;
     height: 100%;
-    background-color: #040809;
+    background-color: #2c2927;
     display: flex;
     align-items: center;
     top: 0;
@@ -29,7 +29,7 @@ export const Close = styled(FaTimes)`
 `
 export const Icon = styled.div`
     position: absolute;
-    top: 18px;
+    top: 35px;
     right: 20px;
     background: transparent;
     font-size: 35px;

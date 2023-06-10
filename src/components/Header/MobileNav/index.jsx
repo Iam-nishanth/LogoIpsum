@@ -8,10 +8,10 @@ const MobileNav = ({ isOpen, toggle }) =>
     </Icon>
     <Wrapper>
       <MobileMenu>
-        <NLink onClick={toggle}>HOME</NLink>
-        <NLink onClick={toggle}>SERVICES</NLink>
-        <NLink onClick={toggle}>ABOUT</NLink>
-        <NLink onClick={toggle}>CONTACT</NLink>
+        <NLink to='/' onClick={toggle}>HOME</NLink>
+        <NLink to='/services' onClick={toggle}>SERVICES</NLink>
+        <NLink to='/about' onClick={toggle}>ABOUT</NLink>
+        <NLink to='/contact' onClick={toggle}>CONTACT</NLink>
       </MobileMenu>
       <SocialMenu>
         <NavButton>GET QUOTE</NavButton>

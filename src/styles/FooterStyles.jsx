@@ -46,8 +46,12 @@ export const LinkSection = styled.div`
         align-items: center;
     }
 `
-export const Logo = styled.div``
+export const Logo = styled.div`
+
+`
 export const Address = styled.div`
+    font-weight: 800;
+    font-size: 16px;
 @media (max-width: 750px){
         align-items: center;
         text-align: center;
@@ -74,7 +78,7 @@ export const Icons = styled.div`
 `
 export const Anchor = styled.a``
 export const Para = styled.p``
-export const Image = styled.p``
+export const Image = styled.img``
 export const Copyright = styled.div`
     display: flex;
     justify-self: flex-end;

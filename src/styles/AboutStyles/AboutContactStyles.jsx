@@ -50,7 +50,11 @@ export const ContentBox = styled.div`
     }
 `
 export const Image = styled.div`
+    display: flex;
     flex:1.4;
+    @media (max-width: 700px){
+        justify-self: flex-end;
+    }
 `
 export const IMG = styled.img`
     height: 100%;
